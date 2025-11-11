@@ -1,7 +1,7 @@
 # James “Jay” Burgess — Data & AI Engineer | Applied Data Science | Revenue & Systems Architecture
 
-I design and ship data systems end-to-end:
-ingestion → modeling → ML/AI → analytics → decisions → revenue and operational impact.
+I design and ship data systems end-to-end:  
+**ingestion → modeling → ML/AI → analytics → decisions → revenue and operational impact.**
 
 My work sits at the intersection of three lanes:
 
@@ -23,7 +23,7 @@ I care about:
 - Models and metrics that leadership can bet money, students, and strategy on.
 - Patterns other engineers can reuse without needing me in the room.
 
-Everything you see here is structured like a template I’d harden for production.
+Everything here is structured like a template I’d harden for production.
 
 ---
 
@@ -33,12 +33,11 @@ These are the clearest examples of how I approach data, AI, and revenue as one s
 
 ### 1. Modern Data Platforms
 
-**`modern-data-platform-template`**  
-End-to-end lakehouse/warehouse blueprint:
-raw → staging → core → marts → analytics → tests.  
+**[`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template)**  
+End-to-end lakehouse/warehouse blueprint: raw → staging → core → marts → analytics → tests.  
 Shows how I structure data models, contracts, and quality for real teams.
 
-**`databricks-lakehouse-foundation`**  
+**[`databricks-lakehouse-foundation`](https://github.com/jayburgessjr/databricks-lakehouse-foundation)**  
 Medallion architecture (Bronze / Silver / Gold) on Databricks + Delta Lake.  
 Includes ingestion patterns, gold-layer aggregates, and basic cluster policy guidance.  
 This is how I’d stand up a clean Lakehouse as a foundation for analytics and ML.
@@ -47,28 +46,25 @@ This is how I’d stand up a clean Lakehouse as a foundation for analytics and M
 
 ### 2. Streaming & Real-Time
 
-**`databricks-dlt-streaming-pipelines`**  
-Delta Live Tables streaming funnel example:
-cloudFiles ingest → bronze events → silver cleaned → gold funnel metrics.  
+**[`databricks-dlt-streaming-pipelines`](https://github.com/jayburgessjr/databricks-dlt-streaming-pipelines)**  
+Delta Live Tables streaming funnel example: cloudFiles ingest → bronze events → silver cleaned → gold funnel metrics.  
 Demonstrates how I handle real-time behavior data with DLT, expectations, and incremental patterns.
 
 ---
 
 ### 3. Revenue Intelligence & Applied ML
 
-**`revenue-lakehouse-databricks`**  
-Marketing, web, CRM, and transactions modeled in a Lakehouse:
-ROAS, LTV, CAC, funnel, cohorts.  
-Encodes how I think about revenue analytics as an actual architecture, not a dashboard playlist.
+**[`revenue-lakehouse-databricks`](https://github.com/jayburgessjr/revenue-lakehouse-databricks)**  
+Marketing, web, CRM, and transactions modeled in a Lakehouse: ROAS, LTV, CAC, funnel, cohorts.  
+Encodes how I think about revenue analytics as an actual architecture, not just a dashboard playlist.
 
-**`ai-revenue-optimization-ltv-churn-uplift`**  
+**[`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift)**  
 AI-driven revenue optimization in notebook form.  
 I simulate a realistic funnel and build:
-
 - A churn model to rank customers at risk.
 - An LTV model to rank customers by long-term value.
 - An uplift-style model to decide who should get offers for maximum incremental impact.
-- Proper evaluation (ROC-AUC, RMSE, calibration-style checks) and targeting policy.
+- Proper evaluation (ROC-AUC, RMSE, calibration-style checks) and a concrete targeting policy.
 
 This is my applied ML + decision science POV: models as levers for profit, not decoration.
 
@@ -76,14 +72,12 @@ This is my applied ML + decision science POV: models as levers for profit, not d
 
 ### 4. Higher Ed Lakehouse (Domain Depth)
 
-**`higher-ed-lakehouse-analytics-on-databricks`**  
-Lakehouse blueprint for universities:
-SIS + LMS + Financial Aid integrated for:
-
-- Retention and progression
-- DFW and course outcomes
-- Equity and Pell/non-Pell gaps
-- Audit-ready reporting
+**[`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/jayburgessjr/higher-ed-lakehouse-analytics-on-databricks)**  
+Lakehouse blueprint for universities: SIS + LMS + Financial Aid integrated for:
+- Retention and progression  
+- DFW and course outcomes  
+- Equity and Pell/non-Pell gaps  
+- Audit-ready reporting  
 
 Reflects how I design governed analytics in regulated, complex environments.
 
@@ -91,14 +85,13 @@ Reflects how I design governed analytics in regulated, complex environments.
 
 ## Other Representative Work
 
-**StockSentimentAnalysis**  
+**[`StockSentimentAnalysis`](https://github.com/jayburgessjr/StockSentimentAnalysis)**  
 NLP + sentiment pipeline for equities. From raw text to signals, structured for extension.
 
-**Employee-Turnover-Prediction**  
-End-to-end churn modeling:
-cleaning, features, model, evaluation. Mirrors how I’d approach HR/retention analytics.
+**[`Employee-Turnover-Prediction`](https://github.com/jayburgessjr/Employee-Turnover-Prediction)**  
+End-to-end churn modeling: cleaning, features, model, evaluation. Mirrors how I’d approach HR/retention analytics.
 
-**brain-segmentation-modeling**  
+**[`brain-segmentation-modeling`](https://github.com/jayburgessjr/brain-segmentation-modeling)**  
 Deep learning workflow for MRI segmentation. Focuses on clarity, experiment structure, and reproducibility.
 
 These complement the platform/ML/revenue repos by showing breadth and disciplined implementation.
@@ -108,18 +101,18 @@ These complement the platform/ML/revenue repos by showing breadth and discipline
 ## Tech I Work With
 
 **Languages**  
-SQL · Python · PySpark · TypeScript
+SQL · Python · PySpark · TypeScript  
 
 **Data & Platforms**  
-Databricks · Delta Lake · Snowflake · Postgres/Supabase · Medallion / Lakehouse patterns
+Databricks · Delta Lake · Snowflake · Postgres/Supabase · Medallion / Lakehouse patterns  
 
 **ML & AI**  
 scikit-learn · deep learning frameworks · NLP · experimentation  
-LLM-based internal assistants and analytics copilots
+LLM-based internal assistants and analytics copilots  
 
 **Analytics & Ops**  
 dbt-style transformations · CI/CD for data · testing · observability · documentation  
-Unity Catalog / governance patterns where applicable
+Unity Catalog / governance patterns where applicable  
 
 I bias toward tools and patterns that make systems observable, explainable, and maintainable.
 
@@ -129,16 +122,16 @@ I bias toward tools and patterns that make systems observable, explainable, and 
 
 If you’re evaluating me:
 
-- For **Senior / Lead Data Engineer / Data Architect**  
+- **Senior / Lead Data Engineer / Data Architect**  
   → Start with `modern-data-platform-template`, `databricks-lakehouse-foundation`, and `databricks-dlt-streaming-pipelines`.
 
-- For **Applied Data Science / ML with business impact**  
+- **Applied Data Science / ML with business impact**  
   → See `ai-revenue-optimization-ltv-churn-uplift`, `Employee-Turnover-Prediction`, and `revenue-lakehouse-databricks`.
 
-- For **Databricks / Lakehouse expertise**  
+- **Databricks / Lakehouse expertise**  
   → Connect `databricks-lakehouse-foundation`, `databricks-dlt-streaming-pipelines`, and `revenue-lakehouse-databricks`.
 
-- For **Higher Ed / Financial Aid / Complex Domains**  
+- **Higher Ed / Financial Aid / Complex Domains**  
   → See `higher-ed-lakehouse-analytics-on-databricks`.
 
 Assume each repo is a template for how I would approach your environment:
