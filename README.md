@@ -7,6 +7,7 @@ My work sits at the intersection of three lanes:
 
 - **Data & Platform Engineering** – Lakehouse, Databricks, Snowflake, Delta, streaming, governed pipelines.
 - **Applied Data Science & ML** – Churn, LTV, uplift, segmentation, forecasting that hold up under scrutiny.
+- **AI Sysyems Engineering** - Create systems with AI as workfoce layer. 
 - **Revenue & Domain Architecture** – Systems for growth, retention, risk, and higher ed built on real metrics, not vibes.
 
 This GitHub is where I show how I think in code.
