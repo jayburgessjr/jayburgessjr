@@ -1,162 +1,101 @@
-# James “Jay” Burgess — AI Systems Engineer | Data & Platform Engineering | Governed Decision Systems
+# James "Jay" Burgess
+### Principal Solutions Architect · Founder, Revuity Systems · AI & Data Engineering
 
-I design and ship **end-to-end execution systems** where data and AI become reliable operational capability:
+> *I solve business problems with technology, end to end — from system design to shipped product.*
 
-**intake → processing → controls → exception handling → auditability → reporting → outcomes**
+15+ years designing and deploying data, AI, and software systems across **Fortune 500 enterprises** (Walmart, Adobe), **regulated industries**, and **venture-scale startups**. I don't just architect — I build, ship, and operate.
 
-This is not a “notebook portfolio.”  
-This GitHub is where I show how I engineer **systems** that teams can run, trust, and scale.
+Currently: Principal Solutions Architect at HEAG · Founder & CTO at [Revuity Systems](https://github.com/YOUR_USERNAME) · Shipping production AI agents, SaaS products, and data infrastructure.
+
+---
+
+## Revuity Systems — Active Products
+
+> Revuity Systems is a lean, product-led software studio building focused vertical tools where data and AI create measurable business value.
+
+| Product | What It Does | Stack |
+|---|---|---|
+| [**ReggieAI**](https://github.com/YOUR_USERNAME/reggieai) | Title IV compliance AI agent deployed in production at a higher ed institution. Handles regulatory Q&A with strict anti-hallucination guardrails and CFR references. | Botpress · HubSpot API · Python · JSON knowledge base |
+| [**WedData**](https://github.com/YOUR_USERNAME/weddata) | B2B SaaS platform giving wedding vendors real-time pricing intelligence and market benchmarking. | React · Supabase · TypeScript · Lovable |
+| [**CertPath**](https://github.com/YOUR_USERNAME/certpath) | Subscription-based multi-track certification platform for professional upskilling. | React · Supabase · TypeScript |
+| [**GameNight**](https://github.com/YOUR_USERNAME/gamenight) | Multiplayer party game web app — real-time sessions, no install required. | React · Supabase · Lovable |
 
 ---
 
 ## What I Build
 
-I build systems that connect:
+I architect and engineer systems across the full execution stack:
 
-- **Data Platforms** (lakehouse/warehouse foundations)
-- **Decision Systems** (ML that produces action, not charts)
-- **AI-as-Workforce** (LLMs/agents embedded into workflows)
-- **Governance** (control points, metric truth, audit trails, reliability patterns)
+```
+Business Problem → System Design → Data Infrastructure → AI/ML Layer → Product → Deployed & Governed
+```
 
-My bias: **make workflows behave like engineered systems** — observable, governed, reusable.
-
----
-
-## My Engineering Philosophy
-
-I’m not interested in disconnected notebooks.
-
-I care about:
-
-- **Layered architecture** over ad-hoc scripts
-- **Decision integrity** (metrics leaders can bet money, students, and strategy on)
-- **Reproducibility + reliability** (tests, contracts, observability, clear failure modes)
-- **Patterns other engineers can reuse** without needing me in the room
-
-Everything here is structured like something I’d harden for production.
+**Core Domains**
+- **AI Agents & LLM Systems** — Production agentic workflows, compliance chatbots, RAG pipelines, anti-hallucination patterns
+- **Data Platform Engineering** — Lakehouse/warehouse foundations, medallion architecture, governed semantic models
+- **Solutions Architecture** — Enterprise system design connecting data, APIs, and product across complex orgs
+- **Full-Stack SaaS** — Zero-to-deployed vertical tools with real user traction
+- **Regulated Industry Systems** — Higher ed, financial aid, Title IV, audit-ready reporting
 
 ---
 
-# Featured Systems (Start Here)
+## Enterprise & Production Work
 
-These repos are the clearest examples of how I design **data + AI + governance** as one system.
-
----
-
-## 1) System Foundations — Modern Data Platforms
-
-**[`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template)**  
-End-to-end lakehouse/warehouse blueprint: **raw → staging → core → marts → analytics → tests**.  
-Shows how I structure models, contracts, documentation, and quality gates for real teams.
-
-**[`databricks-lakehouse-foundation`](https://github.com/jayburgessjr/databricks-lakehouse-foundation)**  
-Medallion architecture (**Bronze / Silver / Gold**) on Databricks + Delta Lake.  
-Includes ingestion patterns, gold-layer aggregates, and platform guardrails.  
-This is how I stand up a clean Lakehouse foundation for analytics + ML.
+- **$2.7M verifiable revenue impact** via AI-driven retention systems
+- Designed and deployed governed analytics platforms at **Walmart** and **Adobe** scale
+- Built Title IV compliance AI (ReggieAI) currently operating in production — handling real student queries with regulatory accuracy requirements
+- Architected higher ed data platforms integrating SIS, LMS, and Financial Aid for retention, equity, and DFW reporting
 
 ---
 
-## 2) Real-Time Execution — Streaming & Incremental Systems
+## Featured Engineering Repos
 
-**[`databricks-dlt-streaming-pipelines`](https://github.com/jayburgessjr/databricks-dlt-streaming-pipelines)**  
-Delta Live Tables streaming funnel example:  
-**cloudFiles ingest → bronze events → silver cleaned → gold funnel metrics**.  
-Demonstrates real-time system behavior using expectations, incremental patterns, and integrity checks.
+### AI & Agents
+- [`reggieai`](https://github.com/YOUR_USERNAME/reggieai) — Production compliance AI agent with structured JSON knowledge base and strict guardrail system prompt
+- [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/YOUR_USERNAME/ai-revenue-optimization-ltv-churn-uplift) — Churn + LTV + uplift targeting system; models as execution levers, not decoration
 
----
+### Data Platform & Architecture
+- [`modern-data-platform-template`](https://github.com/YOUR_USERNAME/modern-data-platform-template) — End-to-end lakehouse blueprint: raw → staging → core → marts → tests → governance
+- [`databricks-lakehouse-foundation`](https://github.com/YOUR_USERNAME/databricks-lakehouse-foundation) — Medallion architecture on Databricks + Delta Lake with ingestion patterns and platform guardrails
+- [`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/YOUR_USERNAME/higher-ed-lakehouse-analytics-on-databricks) — Governed analytics for regulated higher ed environments: retention, equity, audit-ready reporting
 
-## 3) Decision Systems — Revenue Intelligence + Applied ML
-
-**[`revenue-lakehouse-databricks`](https://github.com/jayburgessjr/revenue-lakehouse-databricks)**  
-Marketing, web, CRM, and transactions modeled into a **Revenue Lakehouse**:  
-ROAS, LTV, CAC, funnel metrics, cohorts.  
-This encodes how I treat revenue analytics as a **system-of-record architecture**, not a dashboard playlist.
-
-**[`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift)**  
-AI-driven revenue decision system (simulated realistic funnel).  
-I build:
-
-- Churn model to rank customers at risk
-- LTV model to rank customers by long-term value
-- Uplift-style targeting policy (who gets offers + why)
-- Proper evaluation (ROC-AUC, RMSE, calibration-style checks)
-- Concrete targeting logic tied to incremental impact
-
-This repo reflects my POV: **models are levers for execution, not decoration**.
+### SaaS Products
+- [`weddata`](https://github.com/YOUR_USERNAME/weddata) — B2B pricing intelligence SaaS for wedding vendors
+- [`certpath`](https://github.com/YOUR_USERNAME/certpath) — Multi-track certification platform
+- [`gamenight`](https://github.com/YOUR_USERNAME/gamenight) — Real-time multiplayer party game web app
 
 ---
 
-## 4) Regulated Domain Systems — Higher Ed Lakehouse
+## Tech Stack
 
-**[`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/jayburgessjr/higher-ed-lakehouse-analytics-on-databricks)**  
-Lakehouse blueprint for universities integrating **SIS + LMS + Financial Aid** for:
+**Languages:** Python · SQL · PySpark · TypeScript
 
-- Retention and progression  
-- DFW and course outcomes  
-- Equity and Pell/non-Pell gaps  
-- Audit-ready reporting
+**Data & AI:** Databricks · Microsoft Fabric · Azure · Delta Lake · Snowflake · Supabase · Botpress · LangChain · RAG patterns · scikit-learn
 
-Reflects how I design governed analytics in regulated, complex environments.
+**Product & Frontend:** React · Node.js · Lovable · REST APIs · HubSpot · Power BI
+
+**Practices:** Lakehouse/medallion architecture · governed data modeling · CI/CD · observability · audit-ready reporting · agentic system design
 
 ---
 
-# Other Representative Engineering Work
+## For Recruiters & Hiring Managers
 
-These repos complement the flagship systems by showing breadth + disciplined implementation.
-
-**[`StockSentimentAnalysis`](https://github.com/jayburgessjr/StockSentimentAnalysis)**  
-NLP + sentiment pipeline for equities — from raw text to structured signals, built for extension.
-
-**[`Employee-Turnover-Prediction`](https://github.com/jayburgessjr/Employee-Turnover-Prediction)**  
-End-to-end churn modeling: cleaning → features → model → evaluation.  
-Mirrors how I approach retention analytics as a decision system.
-
-**[`brain-segmentation-modeling`](https://github.com/jayburgessjr/brain-segmentation-modeling)**  
-Deep learning workflow for MRI segmentation.  
-Focuses on clarity, reproducibility, and experiment structure.
+| If you're evaluating me for... | Start here |
+|---|---|
+| AI / Agentic Systems | [`reggieai`](https://github.com/YOUR_USERNAME/reggieai) → [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/YOUR_USERNAME/ai-revenue-optimization-ltv-churn-uplift) |
+| Principal Solutions Architect | [`modern-data-platform-template`](https://github.com/YOUR_USERNAME/modern-data-platform-template) → [`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/YOUR_USERNAME/higher-ed-lakehouse-analytics-on-databricks) |
+| SaaS / Product Engineering | [`weddata`](https://github.com/YOUR_USERNAME/weddata) → [`certpath`](https://github.com/YOUR_USERNAME/certpath) |
+| Regulated Industry / Higher Ed | [`reggieai`](https://github.com/YOUR_USERNAME/reggieai) → [`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/YOUR_USERNAME/higher-ed-lakehouse-analytics-on-databricks) |
+| Data Platform / Lakehouse | [`databricks-lakehouse-foundation`](https://github.com/YOUR_USERNAME/databricks-lakehouse-foundation) → [`modern-data-platform-template`](https://github.com/YOUR_USERNAME/modern-data-platform-template) |
 
 ---
 
-# Tech I Work With
+## Connect
 
-**Languages**  
-SQL · Python · PySpark · TypeScript
-
-**Platforms & Data Systems**  
-Databricks · Delta Lake · Snowflake · Postgres/Supabase  
-Lakehouse / Medallion patterns · Streaming pipelines · Governed data modeling
-
-**ML & AI**  
-scikit-learn · deep learning frameworks · NLP · experimentation  
-LLM-based internal assistants and analytics copilots
-
-**Engineering Practices**  
-dbt-style transformations · CI/CD for data · testing · observability · documentation  
-Unity Catalog / governance patterns where applicable
-
-I bias toward tools and patterns that make systems:  
-**observable · explainable · maintainable · governable**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jay_Burgess-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/YOUR_HANDLE)
+[![Revuity Systems](https://img.shields.io/badge/Studio-Revuity_Systems-000000?style=flat)](https://YOUR_REVUITY_URL)
+[![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat&logo=gmail)](mailto:YOUR_EMAIL)
 
 ---
 
-# How to Read This GitHub (Recruiters & Hiring Managers)
-
-If you’re evaluating me:
-
-- **AI Systems Engineering / Governed Execution**  
-  → Start with `ai-revenue-optimization-ltv-churn-uplift`, then `modern-data-platform-template`.
-
-- **Senior / Lead Data Engineer / Data Architect**  
-  → Start with `modern-data-platform-template`, then `databricks-lakehouse-foundation`.
-
-- **Streaming / Real-Time Systems**  
-  → See `databricks-dlt-streaming-pipelines`.
-
-- **Databricks / Lakehouse Expertise**  
-  → Connect `databricks-lakehouse-foundation`, `databricks-dlt-streaming-pipelines`, and `revenue-lakehouse-databricks`.
-
-- **Higher Ed / Financial Aid / Regulated Analytics**  
-  → See `higher-ed-lakehouse-analytics-on-databricks`.
-
-Assume each repo is a template for how I would approach your environment:  
-**then scale it, secure it, govern it, and tie it directly to the metrics you actually care about.**
+*Everything here is structured the way I'd harden it for production — observable, governed, and built to run without me in the room.*
