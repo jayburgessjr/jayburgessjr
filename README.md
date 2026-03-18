@@ -1,4 +1,4 @@
-# James "Jay" Burgess
+# Jay Burgess
 ### Principal Solutions Architect · Founder, Revuity Systems · AI & Data Engineering
 
 > *I solve business problems with technology, end to end — from system design to shipped product.*
