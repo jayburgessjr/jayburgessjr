@@ -64,6 +64,7 @@ Business Problem → System Design → Data Infrastructure → AI/ML Layer → P
 - [`weddata`](https://github.com/jayburgessjr/weddata) — B2B pricing intelligence SaaS for wedding vendors
 - [`certpath`](https://github.com/jayburgessjr/certpath) — Multi-track certification platform
 - [`gamenight`](https://github.com/jayburgessjr/gamenight) — Real-time multiplayer party game web app
+- [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) — AI-powered portfolio and trading platform with enterprise security, KYC/AML compliance, and multi-database architecture.
 
 ---
 
@@ -85,7 +86,7 @@ Business Problem → System Design → Data Infrastructure → AI/ML Layer → P
 |---|---|
 | AI / Agentic Systems | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`reggieai`](https://github.com/jayburgessjr/reggieai) |
 | Principal Solutions Architect | [`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template) → [`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/jayburgessjr/higher-ed-lakehouse-analytics-on-databricks) |
-| SaaS / Product Engineering | [`weddata`](https://github.com/jayburgessjr/weddata) → [`certpath`](https://github.com/jayburgessjr/certpath) |
+| SaaS / Product Engineering | [`weddata`](https://github.com/jayburgessjr/weddata) → [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) |
 | Regulated Industry / Higher Ed | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`higher-ed-lakehouse-analytics-on-databricks`](https://github.com/jayburgessjr/higher-ed-lakehouse-analytics-on-databricks) |
 | Data Platform / Lakehouse | [`databricks-lakehouse-foundation`](https://github.com/jayburgessjr/databricks-lakehouse-foundation) → [`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template) |
 
