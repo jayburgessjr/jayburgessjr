@@ -1,7 +1,7 @@
 # Jay Burgess
-### Principal Solutions Architect · Founder, Revuity Systems · AI & Data Engineering
+### Principal AI Systems Architect & Agentic Engineer · Founder & CTO, Revuity Systems
 
-> *I solve business problems with technology, end to end — from system design to shipped product.*
+> *I architect and ship AI systems that run production workloads in regulated industries — not slideware.*
 
 15+ years designing and deploying data, AI, and software systems across **Fortune 500 enterprises** (Walmart, Adobe), **regulated industries**, and **venture-scale startups**. I don't just architect — I build, ship, and operate.
 
