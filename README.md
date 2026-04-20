@@ -93,7 +93,7 @@ Business Problem → System Design → Data Infrastructure → AI/ML Layer → P
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jay_Burgess-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/jayburgess)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jay_Burgess-0077B5?style=flat&logo=linkedin)](https://linkedin.com/in/jayburgessjr)
 [![Revuity Systems](https://img.shields.io/badge/Studio-Revuity_Systems-000000?style=flat)](https://revuitysystems.com)
 [![Email](https://img.shields.io/badge/Email-Contact_Me-D14836?style=flat&logo=gmail)](mailto:jay@revuitysys.com)
 
