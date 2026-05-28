@@ -15,10 +15,13 @@ Currently: Principal Solutions Architect at HEAG · Founder & CTO at [Revuity Sy
 
 | Product | What It Does | Stack |
 |---|---|---|
-| [**ReggieAI**](https://github.com/jayburgessjr/reggieai) | Title IV compliance AI agent deployed in production at a higher ed institution. Handles regulatory Q&A with strict anti-hallucination guardrails and CFR references. Reference architecture open-sourced at [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent). | Botpress · HubSpot API · Python · JSON knowledge base |
-| [**WedData**](https://github.com/jayburgessjr/weddata) | B2B SaaS platform giving wedding vendors real-time pricing intelligence and market benchmarking. | React · Supabase · TypeScript · Lovable |
-| [**CertPath**](https://github.com/jayburgessjr/certpath) | Subscription-based multi-track certification platform for professional upskilling. | React · Supabase · TypeScript |
-| [**GameNight**](https://github.com/jayburgessjr/gamenight) | Multiplayer party game web app — real-time sessions, no install required. | React · Supabase · Lovable |
+| **MenuIQ** | Analyzes recipes, costs, and pricing to show restaurant operators exactly which dishes make money and which drain margin. Food cost made visible, actionable, and automatic. | React · Supabase · TypeScript |
+| **Hired** | Interview intelligence for job seekers who want to show up as themselves — not a script. Personalized talking points, authenticity detection, and a readiness score built from your resume and the job description. | React · Supabase · TypeScript |
+| **Signal** | AI social media director for authors, speakers, coaches, and thought leaders. Strategy, drafting, scheduling, and analytics — without making content creation a second job. | React · Supabase · TypeScript |
+| **AI Agentic Engineering Academy** | Three complete programs for engineers, FDEs, and managers. 122 free chapters, AI tutor grounded in the curriculum, and verifiable credentials employers can look up. | React · Supabase · TypeScript |
+| **GameNightz** | 8 multiplayer party games on the big screen — players join instantly on their phones. No downloads, no signups, no friction. | React · Supabase · Lovable |
+| **ProductionOS** | End-to-end OS for filmmakers. Manage the full pipeline from pre-production to distribution in one unified, collaborative interface. | React · Supabase · TypeScript |
+| **Build Wealth Here** | AI signals, risk controls, 50+ decision tools, and two AI advisors in one decision loop — stocks, crypto, options, and prediction markets, consolidated. | React · Supabase · TypeScript |
 
 ---
 
