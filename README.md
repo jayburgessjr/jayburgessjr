@@ -67,7 +67,14 @@ Business Problem → System Design → Data Infrastructure → AI/ML Layer → P
 - [`weddata`](https://github.com/jayburgessjr/weddata) — B2B pricing intelligence SaaS for wedding vendors
 - [`certpath`](https://github.com/jayburgessjr/certpath) — Multi-track certification platform
 - [`gamenight`](https://github.com/jayburgessjr/gamenight) — Real-time multiplayer party game web app
-- [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) — AI-powered portfolio and trading platform with enterprise security, KYC/AML compliance, and multi-database architecture.
+- [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) — AI-powered portfolio and trading platform with enterprise security, KYC/AML compliance, and multi-database architecture
+- [MenuIQ](https://taste-trim-tool.lovable.app/) — Food cost and margin intelligence for restaurant operators
+- [Hired](https://hired.revuitysys.com/) — Interview prep with personalized talking points and authenticity detection
+- [Signal](https://signal.revuitysys.com/) — AI social media director for authors, speakers, and thought leaders
+- [AI Agentic Engineering Academy](https://aiagenticengineering.pro/) — 122-chapter agentic AI curriculum with AI tutor and verifiable credentials
+- [GameNightz](https://gamenightz.online/) — 8 multiplayer party games, phone-based play, no downloads required
+- [ProductionOS](https://productionos.lovable.app/) — End-to-end production pipeline OS for film teams
+- [Build Wealth Here](https://wealthos.revuitysys.com/) — AI signals, risk controls, and 50+ decision tools for sophisticated investors
 
 ---
 
