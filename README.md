@@ -1,5 +1,5 @@
 # Jay Burgess
-### Principal AI Systems Architect & Agentic Engineer · Founder & CTO, Revuity Systems
+### Principal AI Systems Architect & Agentic Engineer · Founder & CEO/CIO, Revuity Systems
 
 > *I architect and ship AI systems that run production workloads in regulated industries — not slideware.*
 
