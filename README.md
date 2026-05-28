@@ -5,7 +5,7 @@
 
 15+ years designing and deploying data, AI, and software systems across **Fortune 500 enterprises** (Walmart, Adobe), **regulated industries**, and **venture-scale startups**. I don't just architect — I build, ship, and operate.
 
-Currently: Principal Solutions Architect at HEAG · Founder & CTO at [Revuity Systems](https://revuitysystems.com) · Shipping production AI agents, SaaS products, and data infrastructure.
+Currently: Principal Solutions Architect at HEAG · Founder & CEO/CIO at [Revuity Systems](https://revuitysystems.com) · Shipping production AI agents, SaaS products, and data infrastructure.
 
 ---
 
