@@ -25,13 +25,21 @@ Forward deployed means I work inside your team, not adjacent to it. The loop:
 
 ## Production Work & Outcomes
 
-- **$2.7M in new client revenue within three weeks of rollout** — architected ReggieAI, a production multi-agent compliance platform for federal Title IV administration, built on Claude, LangGraph, and MCP
-- **25% more case processing capacity, no added headcount** — ReggieAI in live production, handling real student queries under regulatory accuracy requirements
-- **40% faster reporting cycle time** — shipped OpsFlow end to end with Claude Code, FastAPI, and Next.js, replacing Jira with a custom operational execution platform aligned to federal regulation
-- **65% faster client onboarding** — multi-tenant SaaS on Next.js, FastAPI, and Supabase with custom MCP servers, role-based authorization, and audit logging
-- **50% faster compliance review turnaround** — stateful multi-agent workflows with persisted checkpoints, async task execution, and deterministic tool routing built for human review and regulatory auditability
-- **$6B in global marketing spend tracked, 86% faster executive reporting** — unified enterprise pipelines at Adobe, orchestrated with Airflow on AWS
-- **37% improvement in project completion rates** — anomaly detection embedded in the transformation layer at Walmart
+### ReggieAI — multi-agent compliance in a federally regulated domain
+
+Title IV financial aid administration is unforgiving: the rules change by federal rulemaking, every determination has to be defensible to an auditor, and a confidently wrong answer is a compliance event, not a bug.
+
+I architected ReggieAI as a multi-agent system on Claude, LangGraph, and MCP, built around the constraint that **no generated output reaches a regulated decision without a human in the loop**. Deterministic tool routing keeps policy execution out of the model's discretion — the model interprets and drafts, but the rules themselves run as code. Structured outputs and evaluation checks gate every response, and audit logging captures the full chain so a reviewer can reconstruct why a determination was made. A compliance knowledge pipeline handles email intake, routes through a human QA review interface, and dispatches to the knowledge base only after sign-off.
+
+It runs in production today against real student queries. It produced **$2.7M in new client revenue within three weeks of rollout** and lifted case processing capacity **25% without added headcount**.
+
+### Other delivery outcomes
+
+- **OpsFlow** — replaced Jira with a custom operational execution platform aligned to federal regulation, shipped end to end with Claude Code, FastAPI, and Next.js. Reporting cycle time down 40%.
+- **Multi-tenant SaaS platforms** — Next.js, FastAPI, and Supabase with custom MCP servers, role-based authorization, and audit logging. Client onboarding time down 65%.
+- **Stateful multi-agent workflows** — persisted checkpoints, async task execution, and deterministic tool routing built for human review and regulatory auditability. Compliance review turnaround down 50%.
+- **Adobe** — unified enterprise pipelines orchestrated with Airflow on AWS, tracking $6B in global marketing spend. Executive reporting turnaround down 86%.
+- **Walmart** — statistical anomaly detection embedded in the transformation layer to surface production bottlenecks and spend spikes. Project completion rates up 37%.
 
 ---
 
@@ -54,6 +62,7 @@ Forward deployed means I work inside your team, not adjacent to it. The loop:
 - [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) — LangGraph + MCP reference agent for eligibility routing in regulated domains. Sanitized architecture distilled from production compliance work.
 - **ReggieAI** _(private — production system)_ — Multi-agent Title IV compliance platform with structured knowledge base, deterministic guardrails, and audit logging
 - [`revuity-agentic-os`](https://github.com/jayburgessjr/revuity-agentic-os) — Claude Code plugin packaging my build system: phase routing, prompt surfacing, and structured session retrospectives. How I actually run agent-assisted delivery.
+- [`prospecting-agent`](https://github.com/jayburgessjr/prospecting-agent) — Production prospecting agent: lead ingestion and enrichment, a deterministic multi-step cadence, and personalization constrained inside explicit guardrails
 - [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift) — Churn + LTV + uplift targeting system; models as execution levers, not decoration
 
 ### Data Platform & Architecture
@@ -77,10 +86,8 @@ Forward deployed means I work inside your team, not adjacent to it. The loop:
 | **[AI Agentic Engineering Academy](https://aiagenticengineering.pro/)** | Three complete programs for engineers, FDEs, and managers. 122 free chapters, AI tutor grounded in the curriculum, and verifiable credentials employers can look up.                                                | React · Supabase · TypeScript |
 | **[Build Wealth Here](https://wealthos.revuitysys.com/)**               | AI signals, risk controls, 50+ decision tools, and two AI advisors in one decision loop — stocks, crypto, options, and prediction markets, consolidated.                                                            | React · Supabase · TypeScript |
 | **[MenuIQ](https://taste-trim-tool.lovable.app/)**                      | Analyzes recipes, costs, and pricing to show restaurant operators exactly which dishes make money and which drain margin. Food cost made visible, actionable, and automatic.                                        | React · Supabase · TypeScript |
-| **[ProductionOS](https://productionos.lovable.app/)**                   | End-to-end OS for filmmakers. Manage the full pipeline from pre-production to distribution in one unified, collaborative interface.                                                                                 | React · Supabase · TypeScript |
-| **[GameNightz](https://gamenightz.online/)**                            | 8 multiplayer party games on the big screen — players join instantly on their phones. No downloads, no signups, no friction.                                                                                        | React · Supabase · TypeScript |
-| **CIOReview** _(in development)_                                        | Editorial publication for technology operators — recurring columns and topic coverage on running IT and data organizations.                                                                                         | TanStack Start · Supabase     |
-| **CertPath** _(in development)_                                         | Certification learning platform — five certification tracks, 30+ courses, lesson progression, and issued certificates.                                                                                              | React · Supabase · TypeScript |
+
+Also shipped and live: [ProductionOS](https://productionos.lovable.app/) (film production pipeline) and [GameNightz](https://gamenightz.online/) (multiplayer party games). CIOReview and CertPath are in development.
 
 ---
 
@@ -110,7 +117,7 @@ Forward deployed means I work inside your team, not adjacent to it. The loop:
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forward Deployed Engineer (Agentic AI) | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`revuity-agentic-os`](https://github.com/jayburgessjr/revuity-agentic-os)                                                                                             |
 | AI / Agentic Systems                   | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift)                                                 |
-| Full-Stack / Product Engineering       | [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) → [`trsrevos`](https://github.com/jayburgessjr/trsrevos)                                                                                                                           |
+| Full-Stack / Product Engineering       | [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) → [`tradeflow`](https://github.com/jayburgessjr/tradeflow)                                                                                                                           |
 | Regulated Industry / Higher Ed         | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`cognos-to-looker-migration-framework-finaid-admissions-registrar`](https://github.com/jayburgessjr/cognos-to-looker-migration-framework-finaid-admissions-registrar) |
 | Data Platform / Lakehouse              | [`Databricks-Lakehouse-Foundation`](https://github.com/jayburgessjr/Databricks-Lakehouse-Foundation) → [`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template)                                           |
 
