@@ -65,6 +65,12 @@ It runs in production today against real student queries. It produced **$2.7M in
 - [`prospecting-agent`](https://github.com/jayburgessjr/prospecting-agent) — Production prospecting agent: lead ingestion and enrichment, a deterministic multi-step cadence, and personalization constrained inside explicit guardrails
 - [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift) — Churn + LTV + uplift targeting system; models as execution levers, not decoration
 
+### Full-Stack Production Systems
+
+- [`wealthos-hub`](https://github.com/jayburgessjr/wealthos-hub) — The full source behind [Build Wealth Here](https://wealthos.revuitysys.com/): 44 tables under row-level security with 203 policies, Stripe billing, and Deno edge functions for alerting and household invites. Open if you want to read how I actually structure a multi-tenant product.
+- [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) — AI portfolio and trading platform with KYC/AML compliance and multi-database architecture
+- [`tradeflow`](https://github.com/jayburgessjr/tradeflow) — Multi-tenant SaaS for home services: lead capture, scheduling, and follow-up with per-tenant isolation and role-based access
+
 ### Data Platform & Architecture
 
 - [`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template) — End-to-end lakehouse blueprint: raw → staging → core → marts → tests → governance
@@ -119,7 +125,7 @@ Also shipped and live: [ProductionOS](https://indieos.revuitysys.com/) (film pro
 | -------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Forward Deployed Engineer (Agentic AI) | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`revuity-agentic-os`](https://github.com/jayburgessjr/revuity-agentic-os)                                                                                             |
 | AI / Agentic Systems                   | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`ai-revenue-optimization-ltv-churn-uplift`](https://github.com/jayburgessjr/ai-revenue-optimization-ltv-churn-uplift)                                                 |
-| Full-Stack / Product Engineering       | [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys) → [`tradeflow`](https://github.com/jayburgessjr/tradeflow)                                                                                                                         |
+| Full-Stack / Product Engineering       | [`wealthos-hub`](https://github.com/jayburgessjr/wealthos-hub) → [`stratfordsys`](https://github.com/jayburgessjr/stratfordsys)                                                                                                                         |
 | Regulated Industry / Higher Ed         | [`eligibility-agent`](https://github.com/jayburgessjr/eligibility-agent) → [`cognos-to-looker-migration-framework-finaid-admissions-registrar`](https://github.com/jayburgessjr/cognos-to-looker-migration-framework-finaid-admissions-registrar) |
 | Data Platform / Lakehouse              | [`Databricks-Lakehouse-Foundation`](https://github.com/jayburgessjr/Databricks-Lakehouse-Foundation) → [`modern-data-platform-template`](https://github.com/jayburgessjr/modern-data-platform-template)                                           |
 
