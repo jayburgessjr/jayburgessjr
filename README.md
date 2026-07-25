@@ -6,7 +6,7 @@
 
 15+ years designing and deploying data, AI, and software systems across **Fortune 500 enterprises** (Walmart, Adobe), **regulated industries**, and **venture-scale startups**. I don't just architect — I build, ship, and operate.
 
-Currently: Founder & Principal Forward Deployed Engineer, [Revuity Systems](https://revuitysys.com) · Principal AI Solutions Architect at HEAG (concurrent) · Shipping production AI agents, SaaS products, and data infrastructure.
+Currently: Founder & Principal Forward Deployed Engineer, [Revuity Systems](https://revuitysys.com) · Principal Forward Deployed Engineer at HEAG (concurrent) · Shipping production AI agents, SaaS products, and data infrastructure.
 
 ---
 
