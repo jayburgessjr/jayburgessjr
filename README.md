@@ -85,9 +85,9 @@ It runs in production today against real student queries. It produced **$2.7M in
 | **[Signal](https://signal.revuitysys.com/)**                            | AI social media director for authors, speakers, coaches, and thought leaders. Strategy, drafting, scheduling, and analytics — without making content creation a second job.                                         | React · Supabase · TypeScript |
 | **[AI Agentic Engineering Academy](https://aiagenticengineering.pro/)** | Three complete programs for engineers, FDEs, and managers. 122 free chapters, AI tutor grounded in the curriculum, and verifiable credentials employers can look up.                                                | React · Supabase · TypeScript |
 | **[Build Wealth Here](https://wealthos.revuitysys.com/)**               | AI signals, risk controls, 50+ decision tools, and two AI advisors in one decision loop — stocks, crypto, options, and prediction markets, consolidated.                                                            | React · Supabase · TypeScript |
-| **[MenuIQ](https://taste-trim-tool.lovable.app/)**                      | Analyzes recipes, costs, and pricing to show restaurant operators exactly which dishes make money and which drain margin. Food cost made visible, actionable, and automatic.                                        | React · Supabase · TypeScript |
+| **[MenuIQ](https://menuiq.revuitysys.com/)**                      | Analyzes recipes, costs, and pricing to show restaurant operators exactly which dishes make money and which drain margin. Food cost made visible, actionable, and automatic.                                        | React · Supabase · TypeScript |
 
-Also shipped and live: [ProductionOS](https://productionos.lovable.app/) (film production pipeline) and [GameNightz](https://gamenightz.online/) (multiplayer party games). CIOReview and CertPath are in development.
+Also shipped and live: [ProductionOS](https://indieos.revuitysys.com/) (film production pipeline) and [GameNightz](https://gamenightz.online/) (multiplayer party games). [CIOReview](https://cioreview.revuitysys.com/) (technology leadership commentary) is live; CertPath is in development.
 
 ---
 
